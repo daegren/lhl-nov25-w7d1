@@ -1,17 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
-import Counter from './components/Counter'
+import CharacterForm from './components/CharacterForm'
 
 function App() {
 
   return (
     <div className="App">
-      <Counter />
-      <Counter />
-      <Counter />
-      <Counter />
-      <Counter />
-      <Counter />
+      <CharacterForm />
     </div>
   );
 }
